@@ -1,0 +1,50 @@
+body {
+  background-color: #fff0f5;
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 50px;
+  min-height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=1950&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor {
+  background-color: rgba(255, 255, 255, 0.88);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 650px;
+  margin: auto;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  padding: 18px 32px;
+  font-size: 20px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff85c1;
+}
+
+#razon {
+  font-size: 22px;
+  margin-top: 40px;
+  font-weight: bold;
+  transition: all 0.4s ease;
+  opacity: 0;
+  min-height: 120px;
+}
+
+.frase-final {
+  font-size: 22px;
+  margin-top: 40px;
+  font-weight: bold;
+}
